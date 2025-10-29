@@ -1,0 +1,27 @@
+.container {
+    background: black;
+    height:500px;
+    max-width:930px;
+    margin:150px auto;
+    border-left:14px solid red;
+    border-right:14px solid blue;
+    border-top: 10px solid  green;
+    border-bottom:10px solid yellow;
+}
+
+img {
+    display: block;
+    margin:auto;
+    height:50px;
+    width:50px;
+    animation: dvd 7s infinite linear alternate-reverse;
+}
+
+@keyframes dvd {
+    0%{background:green;}
+    20%{background: green;transform:translate(440px,250px);}
+    40%{background: blue;transform: translate(-7px,450px);}
+    60%{background:yellow;transform:translate(-440px,200px);}
+    80%{background:red;}
+    90%{background: red;}    
+}
